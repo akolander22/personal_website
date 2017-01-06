@@ -3,10 +3,18 @@
   background-color: #2E8B57;
   padding-top: 10px;
   color: #EEE8AA;
+  text-shadow: 2px 2px #696969;
   text-align: center;
 }
 #projects{
   display: inline-block;
+}
+#about{
+  text-align: center;
+  background-color: #194d30;
+  color: white;
+  padding: 2px 0px;
+  text-shadow: 1px 1px black;
 }
 .links:hover{
   text-decoration: none;
