@@ -10,6 +10,10 @@
 .buttons{
   padding: 10px;
 }
+#pic{
+  height:200px;
+  width: 200px;
+}
 #projects{
   height: 500px;
   display: inline-block;
