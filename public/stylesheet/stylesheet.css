@@ -11,15 +11,17 @@
   padding: 10px;
 }
 #pic{
+  padding-left: 50px;
   height:500px;
-  width: 325px;
+  width: 375px;
+  float: left;
 }
 #projects{
   height: 500px;
   display: inline-block;
 }
 #about{
-  
+  height: 600px;
   text-align: center;
   background-color: #194d30;
   color: white;
