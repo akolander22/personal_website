@@ -11,4 +11,9 @@ $( document ).ready(function() {
         scrollTop: $("#projects").offset().top
       }, 1000);
     });
+    $("#top").click(function(){
+      $('html, body').animate({
+        scrollTop: $("#head").offset().top
+      }, 1000)
+    })
 });
