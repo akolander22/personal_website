@@ -11,14 +11,18 @@
   padding: 10px;
 }
 #pic{
-  padding-left: 50px;
-  height:500px;
-  width: 375px;
+  padding: 50px 50px;
+  height:600px;
+  width: 450px;
   float: left;
 }
 #projects{
   height: 500px;
-  display: inline-block;
+  background-color: #2E8B57;
+  padding-top: 150px;
+  color: #EEE8AA;
+  text-shadow: 2px 2px #696969;
+  text-align: center;
 }
 #about{
   height: 600px;
