@@ -27,6 +27,7 @@
 .project{
   display: inline-block;
   width: 200px;
+  height: 200px;
   padding: 5px;
   border: 1px solid black;
 }
