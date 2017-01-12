@@ -24,6 +24,12 @@
   text-shadow: 2px 2px #696969;
   text-align: center;
 }
+.project{
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid black;
+}
 #about{
   height: 600px;
   text-align: center;

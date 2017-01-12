@@ -15,5 +15,10 @@ $( document ).ready(function() {
       $('html, body').animate({
         scrollTop: $("#head").offset().top
       }, 1000)
-    })
+    });
+    $("#bottom").click(function(){
+      $('html, body').animate({
+        scrollTop: $("#head").offset().top
+      }, 1000)
+    });
 });
