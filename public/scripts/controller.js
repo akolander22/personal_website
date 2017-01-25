@@ -1,5 +1,7 @@
+var myApp = angular.module('portfolio', []);
 
-angular.module('portfolioApp').controller('MainController', function(){
+
+myApp.controller('MainController', function(){
 
 
 })
