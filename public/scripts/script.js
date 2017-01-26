@@ -27,3 +27,9 @@ $( document ).ready(function() {
       }, 1000)
     });
 });
+
+var myApp = angular.module('portfolio', ['ngRoute', 'ngMaterial']);
+
+myApp.controller('MainController', function(){
+
+});
