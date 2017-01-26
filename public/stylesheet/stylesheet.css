@@ -16,21 +16,21 @@
   width: 450px;
   float: left;
 }
-#projects{
-  height: 500px;
+#projectsLists{
+  height: 600px;
   background-color: #2E8B57;
   padding-top: 10px;
   color: #EEE8AA;
   text-shadow: 2px 2px #696969;
   text-align: center;
 }
-.project{
+/*.project{
   display: inline-block;
   width: 200px;
   height: 200px;
   padding: 5px;
   border: 1px solid black;
-}
+}*/
 #about{
   height: 600px;
   text-align: center;
@@ -44,4 +44,7 @@
 }
 #me{
   padding-right: 25px;
+}
+#topbuttom{
+  margin-top: 5px;
 }
