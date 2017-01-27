@@ -19,18 +19,14 @@
 #projectsLists{
   height: 600px;
   background-color: #2E8B57;
-  padding-top: 10px;
+  padding-top: 5px;
   color: #EEE8AA;
   text-shadow: 2px 2px #696969;
   text-align: center;
 }
-/*.project{
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  padding: 5px;
-  border: 1px solid black;
-}*/
+.project{
+  padding: 10px;
+}
 #about{
   height: 600px;
   text-align: center;
@@ -38,9 +34,6 @@
   color: white;
   padding: 2px 0px;
   text-shadow: 1px 1px black;
-}
-.links:hover{
-  text-decoration: none;
 }
 #me{
   padding-right: 25px;

@@ -31,5 +31,10 @@ $( document ).ready(function() {
 var myApp = angular.module('portfolio', ['ngRoute', 'ngMaterial']);
 
 myApp.controller('MainController', function(){
+  var vm = this;
 
+  vm.modal = function(){
+
+    console.log('clicked it');
+  }
 });
