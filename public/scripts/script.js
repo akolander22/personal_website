@@ -46,8 +46,6 @@ myApp.controller('MainController', function($mdDialog, $mdMedia){
       ariaLabel: 'Good'
     });
   }
+
+
 });
-myApp.controller('ModalController', function($mdDialog, $mdMedia){
-
-
-})
