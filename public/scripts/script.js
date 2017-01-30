@@ -30,11 +30,24 @@ $( document ).ready(function() {
 
 var myApp = angular.module('portfolio', ['ngRoute', 'ngMaterial']);
 
-myApp.controller('MainController', function(){
+myApp.controller('MainController', function($mdDialog, $mdMedia){
   var vm = this;
 
   vm.modal = function(){
 
     console.log('clicked it');
+    var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'));
+    $mdDialog.show({
+      controller: 'ModalController',
+      controllerAs: 'modal',
+      templateUrl: 'public/views/continuinged.html',
+      fullscreen: useFullScreen,
+      clickOutsideToClose: true,
+      ariaLabel: 'Good'
+    });
   }
 });
+myApp.controller('ModalController', function($mdDialog, $mdMedia){
+
+
+})
