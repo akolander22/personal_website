@@ -40,12 +40,16 @@ myApp.controller('MainController', function($mdDialog, $mdMedia){
     $mdDialog.show({
       controller: 'ModalController',
       controllerAs: 'modal',
-      templateUrl: 'public/views/continuinged.html',
+      templateUrl: 'continuinged.html',
       fullscreen: useFullScreen,
       clickOutsideToClose: true,
       ariaLabel: 'Good'
     });
   }
+
+
+});
+myApp.controller('ModalController', function(){
 
 
 });
