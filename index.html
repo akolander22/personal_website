@@ -58,15 +58,15 @@
 
     <div id="projects">
       <h2>Past Projects</h2>
-        <div class="col-md-4 project" ng-click="main.modal()">
+        <div class="col-md-4 project" ng-click="main.ed()">
           <h4>Continuing Ed</h4>
           <img src="public/assets/edupdate.png" style="height: 200px; width: 350px;"/>
         </div>
-        <div class="col-md-4 project">
+        <div class="col-md-4 project" ng-click="main.ssmn()">
           <h4>Sustainable Stillwater</h4>
           <img src="public/assets/ssmnhome.png" style="height: 200px; width: 350px;" />
         </div>
-        <div class="col-md-4 project">
+        <div class="col-md-4 project" ng-click="main.tv()">
           <h4>MyTvTracker</h4>
           <img src="public/assets/tvmyshows.png" style="height: 200px; width: 350px;" />
         </div>
@@ -90,6 +90,26 @@
         <img src="public/assets/edlicense.png" style="height:300px; width: 300px;"/>
         <img src="public/assets/edlogin.png" style="height:300px; width: 300px;"/>
         <a href="http://continuededucationapp.herokuapp.com/">Working Application</a>
+      </script>
+    </div>
+    <div ng-controller="ModalController as modal">
+      <script type="text/ng-template" id="ssmn.html">
+        <h1>Sustainable Stillwater Minnesota</h1>
+        <img src="public/assets/ssmnhome.png" />
+        <img src="public/assets/ssmnprofile.png" style="height:300px; width: 300px;"/>
+        <img src="public/assets/ssmnoverall.png" style="height:300px; width: 300px;"/>
+        <img src="public/assets/ssmnviewprogess.png" style="height:300px; width: 300px;"/>
+        <a href="http://sustainablestillwater.herokuapp.com">Working Application</a>
+      </script>
+    </div>
+    <div ng-controller="ModalController as modal">
+      <script type="text/ng-template" id="tv.html">
+        <h1>MyTvTracker</h1>
+        <img src="public/assets/tvlogin.png" />
+        <img src="public/assets/tvsearch.png" style="height:300px; width: 300px;"/>
+        <img src="public/assets/tvmyshows.png" style="height:300px; width: 300px;"/>
+        <img src="public/assets/tvprogress.png" style="height:300px; width: 300px;" />
+        <a href="http://frozen-falls-30491.herokuapp.com/">Working Application</a>
       </script>
     </div>
     <div class="topbuttom">

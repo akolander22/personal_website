@@ -33,14 +33,34 @@ var myApp = angular.module('portfolio', ['ngRoute', 'ngMaterial']);
 myApp.controller('MainController', function($mdDialog, $mdMedia){
   var vm = this;
 
-  vm.modal = function(){
-
-    console.log('clicked it');
+  vm.ed = function(){
     var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'));
     $mdDialog.show({
       controller: 'ModalController',
       controllerAs: 'modal',
       templateUrl: 'continuinged.html',
+      fullscreen: useFullScreen,
+      clickOutsideToClose: true,
+      ariaLabel: 'Good'
+    });
+  }
+  vm.ssmn = function(){
+    var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'));
+    $mdDialog.show({
+      controller: 'ModalController',
+      controllerAs: 'modal',
+      templateUrl: 'ssmn.html',
+      fullscreen: useFullScreen,
+      clickOutsideToClose: true,
+      ariaLabel: 'Good'
+    });
+  }
+  vm.tv = function(){
+    var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'));
+    $mdDialog.show({
+      controller: 'ModalController',
+      controllerAs: 'modal',
+      templateUrl: 'tv.html',
       fullscreen: useFullScreen,
       clickOutsideToClose: true,
       ariaLabel: 'Good'
