@@ -1,6 +1,6 @@
 
 #head{
-  height: 600px;
+  height: 100%;
   background-color: #2E8B57;
   padding-top: 150px;
   color: #EEE8AA;
@@ -17,7 +17,7 @@
   float: left;
 }
 #projectsLists{
-  height: 600px;
+  height: 100%;
   background-color: #2E8B57;
   padding-top: 5px;
   color: #EEE8AA;
@@ -28,7 +28,7 @@
   padding: 10px;
 }
 #about{
-  height: 600px;
+  height: 100%;
   text-align: center;
   background-color: #194d30;
   color: white;
