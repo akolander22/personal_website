@@ -56,6 +56,7 @@
     <!-- Projects Section-->
     <div id="projectsLists">
 
+    <!-- Projects List -->
     <div id="projects">
       <h2>Past Projects</h2>
         <div class="col-md-4 project" ng-click="main.ed()">
@@ -83,16 +84,50 @@
           <img src="public/assets/resume.png" style="height: 200px; width: 350px;" />
         </div>
     </div>
+
+    <!-- MODALS -->
     <div ng-controller="ModalController as modal">
+
+      <!-- Continuing Education APP -->
       <script type="text/ng-template" id="continuinged.html">
-        <h1>Continuing Education Application</h1>
-        <img src="public/assets/edcreate.png" />
-        <img src="public/assets/edlicense.png" style="height:300px; width: 300px;"/>
-        <img src="public/assets/edlogin.png" style="height:300px; width: 300px;"/>
-        <a href="http://continuededucationapp.herokuapp.com/">Working Application</a>
+        <md-dialog-content style="max-width:800px;max-height:810px; ">
+      <h2>Continuing Education Application</h2>
+      <md-tabs md-dynamic-height md-border-bottom>
+        <md-tab label="One">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Tab One</h1>
+            <img src="public/assets/edlogin.png" style="height:600px; width:700px;"/>
+          </md-content>
+        </md-tab>
+        <md-tab label="two">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Tab Two</h1>
+            <img src="public/assets/edcreate.png" style="height:600px; width:700px;"/>
+          </md-content>
+        </md-tab>
+        <md-tab label="three">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Tab Three</h1>
+            <img src="public/assets/edlicense.png" style="height:600px; width:700px;"/>
+          </md-content>
+        </md-tab>
+        <md-tab label="four">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Tab Four</h1>
+            <img src="public/assets/edupdate.png" style="height:600px; width:700px;"/>
+          </md-content>
+        </md-tab>
+        <md-tab label="five">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Tab Five</h1>
+            <a href="http://continuededucationapp.herokuapp.com/">Live Demo</a>
+          </md-content>
+        </md-tab>
+      </md-tabs>
+    </md-dialog-content>
       </script>
-    </div>
-    <div ng-controller="ModalController as modal">
+
+      <!-- Sustainable Stillwater Modal -->
       <script type="text/ng-template" id="ssmn.html">
         <h1>Sustainable Stillwater Minnesota</h1>
         <img src="public/assets/ssmnhome.png" />
@@ -101,8 +136,8 @@
         <img src="public/assets/ssmnviewprogess.png" style="height:300px; width: 300px;"/>
         <a href="http://sustainablestillwater.herokuapp.com">Working Application</a>
       </script>
-    </div>
-    <div ng-controller="ModalController as modal">
+
+      <!-- MyTv Tracker Modal -->
       <script type="text/ng-template" id="tv.html">
         <h1>MyTvTracker</h1>
         <img src="public/assets/tvlogin.png" />
@@ -112,6 +147,8 @@
         <a href="http://frozen-falls-30491.herokuapp.com/">Working Application</a>
       </script>
     </div>
+
+
     <div class="topbuttom">
       <button class="w3-btn w3-border w3-ripple w3-dark-grey" id="bottom">Back to Top</button>
     </div>
