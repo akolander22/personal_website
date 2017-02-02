@@ -90,30 +90,37 @@
 
       <!-- Continuing Education APP -->
       <script type="text/ng-template" id="continuinged.html">
-        <md-dialog-content style="max-width:800px;max-height:810px; ">
-      <h2>Continuing Education Application</h2>
+        <md-toolbar>
+          <div class="md-toolbar-tools">
+            <h2>Continuing Education Application</h2>
+            <md-button class="md-icon-button" ng-click="cancel()">
+              <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+          </div>
+        </md-toolbar>
+        <md-dialog-content style="max-width:900px;max-height:810px; ">
       <md-tabs md-dynamic-height md-border-bottom>
-        <md-tab label="One">
+        <md-tab label="Login">
           <md-content class="md-padding">
-            <h1 class="md-display-2">Tab One</h1>
-            <img src="public/assets/edlogin.png" style="height:600px; width:700px;"/>
+            <h1 class="md-display-2">Login Page</h1>
+            <img src="public/assets/edlogin.png" style="height:600px; width:900px;"/>
           </md-content>
         </md-tab>
-        <md-tab label="two">
+        <md-tab label="Licenses">
           <md-content class="md-padding">
-            <h1 class="md-display-2">Tab Two</h1>
-            <img src="public/assets/edcreate.png" style="height:600px; width:700px;"/>
-          </md-content>
-        </md-tab>
-        <md-tab label="three">
-          <md-content class="md-padding">
-            <h1 class="md-display-2">Tab Three</h1>
+            <h1 class="md-display-2">Active Licenses</h1>
             <img src="public/assets/edlicense.png" style="height:600px; width:700px;"/>
           </md-content>
         </md-tab>
-        <md-tab label="four">
+        <md-tab label="Create">
           <md-content class="md-padding">
-            <h1 class="md-display-2">Tab Four</h1>
+            <h1 class="md-display-2">Create a new License</h1>
+            <img src="public/assets/edcreate.png" style="height:600px; width:700px;"/>
+          </md-content>
+        </md-tab>
+        <md-tab label="Update">
+          <md-content class="md-padding">
+            <h1 class="md-display-2">Update</h1>
             <img src="public/assets/edupdate.png" style="height:600px; width:700px;"/>
           </md-content>
         </md-tab>
