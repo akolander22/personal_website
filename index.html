@@ -58,7 +58,7 @@
 
     <!-- Projects List -->
     <div id="projects">
-      <h2>Past Projects</h2>
+      <h2>Portfolio of Projects</h2>
         <div class="col-md-4 project" ng-click="main.ed()">
           <h4>Continuing Ed</h4>
           <img src="public/assets/edupdate.png" style="height: 200px; width: 350px;"/>
@@ -91,7 +91,7 @@
       <!-- Continuing Education APP -->
       <script type="text/ng-template" id="continuinged.html">
         <md-toolbar>
-          <div class="md-toolbar-tools">
+          <div class="md-toolbar-tools" style="background-color:#2E8B57;">
             <h2>Continuing Education Application</h2>
             <md-button class="md-icon-button" ng-click="cancel()">
               <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
@@ -139,8 +139,15 @@
 
       <!-- Sustainable Stillwater Modal -->
       <script type="text/ng-template" id="ssmn.html">
+        <md-toolbar>
+          <div class="md-toolbar-tools" style="background-color:#2E8B57;">
+            <h2>Sustainable Stillwater Minnesota</h2>
+            <md-button class="md-icon-button" ng-click="cancel()">
+              <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+          </div>
+        </md-toolbar>
         <md-dialog-content style="max-width:900px;max-height:810px; ">
-          <h2>Sustainable Stillwater Minnesota</h2>
         <md-tabs md-dynamic-height md-border-bottom>
           <md-tab label="Home">
             <md-content class="md-padding">
@@ -181,8 +188,15 @@
 
       <!-- MyTv Tracker Modal -->
       <script type="text/ng-template" id="tv.html">
+        <md-toolbar>
+          <div class="md-toolbar-tools" style="background-color:#2E8B57;">
+            <h2>MyTvTracker</h2>
+            <md-button class="md-icon-button" ng-click="cancel()">
+              <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+          </div>
+        </md-toolbar>
         <md-dialog-content style="max-width:900px;max-height:810px; ">
-          <h2>MyTvTracker</h2>
         <md-tabs md-dynamic-height md-border-bottom>
           <md-tab label="Login">
             <md-content class="md-padding">
