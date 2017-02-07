@@ -66,6 +66,17 @@ myApp.controller('MainController', function($mdDialog, $mdMedia){
       ariaLabel: 'Good'
     });
   }
+  vm.olympic = function(){
+    var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'));
+    $mdDialog.show({
+      controller: 'ModalController',
+      controllerAs: 'modal',
+      templateUrl: 'olympic.html',
+      fullscreen: useFullScreen,
+      clickOutsideToClose: true,
+      ariaLabel: 'Good'
+    });
+  }
 
 
 });
