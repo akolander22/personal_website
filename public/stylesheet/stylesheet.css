@@ -1,4 +1,3 @@
-
 #head{
   height: 100%;
   background-color: #2E8B57;
@@ -17,18 +16,15 @@
   float: left;
 }
 #projectsLists{
-  height: 100%;
+  height: 900px;
   background-color: #2E8B57;
   padding-top: 5px;
   color: #EEE8AA;
   text-shadow: 2px 2px #696969;
   text-align: center;
 }
-.project{
-  padding: 10px;
-}
 #about{
-  height: 100%;
+  height: 650px;
   text-align: center;
   background-color: #194d30;
   color: white;
@@ -38,6 +34,13 @@
 #me{
   padding-right: 25px;
 }
-#topbuttom{
+#topbutton{
   margin-top: 5px;
+}
+.snippet{
+  -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+       -o-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
