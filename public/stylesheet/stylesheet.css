@@ -1,10 +1,14 @@
 #head{
   height: 100%;
   background-color: #2E8B57;
-  padding-top: 150px;
+  padding: 15%;
   color: #EEE8AA;
   text-shadow: 2px 2px #696969;
   text-align: center;
+  margin: 0 auto;
+}
+a:hover{
+  text-decoration: none !important;
 }
 .buttons{
   padding: 10px;
