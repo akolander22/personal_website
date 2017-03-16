@@ -1,3 +1,6 @@
+.thumbnail{
+  background-color: #333;
+}
 #head{
   height: 100%;
   background-color: #2E8B57;
@@ -20,7 +23,8 @@ a:hover{
   float: left;
 }
 #projectsLists{
-  height: 900px;
+  min-height: 100%;
+  overflow: hidden;
   background-color: #2E8B57;
   padding-top: 5px;
   color: #EEE8AA;
