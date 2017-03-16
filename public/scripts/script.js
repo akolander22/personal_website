@@ -8,7 +8,7 @@ $( document ).ready(function() {
     });
     $("#pastProjects").click(function(){
       $('html, body').animate({
-        scrollTop: $("#projects").offset().top
+        scrollTop: $("#projectsLists").offset().top
       }, 1000);
     });
     $("#toProjects").click(function(){
