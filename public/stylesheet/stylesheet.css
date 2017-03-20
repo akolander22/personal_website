@@ -1,120 +1,113 @@
-/*#head{
-  height: 100%;
-  background-color: #2E8B57;
-  padding: 15%;
-  color: #EEE8AA;
-  text-shadow: 2px 2px #696969;
-  text-align: center;
-  margin: 0 auto;
+#container{
+  height:100%;
+  width:100%;
+  background-color: slategrey;
 }
-a:hover{
-  text-decoration: none !important;
-}
-.buttons{
-  padding: 10px;
-}
-#pic{
-  padding: 50px 50px;
-  height:600px;
-  width: 450px;
-  float: left;
-}
-#projectsLists{
-  min-height: 100%;
-  overflow: hidden;
-  background-color: #2E8B57;
-  padding-top: 5px;
-  color: #EEE8AA;
-  text-shadow: 2px 2px #696969;
-  text-align: center;
-}
-#about{
-  height: 650px;
-  text-align: center;
-  background-color: #194d30;
-  color: white;
-  padding: 2px 0px;
-  text-shadow: 1px 1px black;
-}
-#me{
-  padding-right: 25px;
-}
-#topbutton{
-  margin-top: 5px;
-}*/
-
-#container
-{
-    height:100%;
-    width:100%;
-    position:relative;
-    background-color: slategrey;
-}
-
-#image
-{
-    position:absolute;
-    left:5%;
-    top:5%;
-    height: 300px;;
-    width: 300px;
-    /*width: 60%;*/
-    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-    border-radius: 50%;
-    border: 2px solid white;
+#image{
+  left:5%;
+  top:5%;
+  height: 300px;;
+  width: 300px;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 10px;
+  float:left;
 }
 #info{
-  position: absolute;
-  right: 10%;
-  width: 40%;
+  float: left;
+  right: 2%;
+  width: 60%;
 }
-#name
-{
-    z-index:100;
-    position:absolute;
-    color:white;
-    font-size:50px;
-    /*font-weight:bold;*/
-    left:50px;
-    top:75px;
-    font-family: 'Muli', sans-serif;
+#name{
+  color:white;
+  font-size:50px;
+  left:50px;
+  top:75px;
+  font-family: 'Muli', sans-serif;
 }
 #title{
-  z-index: 100;
-  position: absolute;
   color: white;
   font-size: 24px;
-  /*font-weight: bold;*/
   left: 50px;
   top: 125px;
   font-family: 'Muli', sans-serif;
 }
 .links{
-  z-index: 100;
-  position: absolute;
-  left: 75px;
-  top: 175px;
+  color: white;
+  text-align: center;
+}
+#textContainer{
+  /*position: fixed;*/
+  /*top: 300px;*/
+  color: slategrey;
+  width: 100%;
+  margin: 50px;
+  text-align: center;
+  clear: both;
+}
+#infoContainer{
+  margin: 10px;
+  /*position: absolute;*/
+  width: 90%;
+}
+.column{
+  width: 30%;
+  float: left;
+  padding: 5px;
+}
+.subheader{
+  background-color: white;
+}
+#me{
+  background-color: slategrey;
   color: white;
 }
-#subheader{
-  position: absolute;
-  top: 60%;
-  color: slategrey;
-  width: 95%;
-  margin-left: 50px;
-
-}
-#about{
-
-  margin-left: 20px;
-
-}
-#about,#skills,#contact{
-  float: left;
-  width: 30%;
-  padding: 5px;
+#projectHeader{
+  text-align: center;
   background-color: white;
-  margin: 1px;
+  width: 90%;
+  margin: 0 auto;
+  color: slategrey;
+  clear:left;
+}
+ul{
+  list-style-type: none;
+}
+#skillsList{
+  color: white;
+}
+#projectsContainer{
+  background-color: slategrey;
+  clear: both;
+}
+#projects{
+  width: 100%;
+  border: 1px solid black;
+  height: 500px;
+}
+.project{
+  float: left;
+  width: 33%;
+  height: 250px;
+  padding: 5px;
+  margin: 0 auto;
+  position: relative;
+}
+.projectImage #edInfo{
+  visibility: hidden;
+}
+.projectImaeg:hover{
+  opacity: 0.75;
+}
+.projectImage:hover #edInfo{
+  visibility: visible;
+}
+.projectImage{
+  height: 250px;
+  width: 100%;
+  padding: 5px;
+
 }
