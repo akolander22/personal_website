@@ -7,6 +7,7 @@
 #infoContainer{
   width: 90%;
   background-color: slategrey;
+  height: 400px;
 }
 #image{
   left:5%;
@@ -25,7 +26,7 @@
 }
 #info{
   float: left;
-  margin-left: 150px;
+  margin-left: 175px;
   margin-top: 75px;
 }
 #name{
@@ -69,7 +70,7 @@
 #projectHeader{
   text-align: center;
   background-color: ghostwhite;
-  width: 80%;
+  width: 95%;
   color: slategrey;
   clear:left;
   margin: 0 auto;
