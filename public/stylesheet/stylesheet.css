@@ -1,12 +1,11 @@
 
 #container{
   width:100%;
-  background-color: 	#47a329;
+  background-color: 	slategrey;
 }
 #infoContainer{
-  width: 90%;
-  background-color: 	#47a329;
-  height: 400px;
+  /*width: 100%;*/
+  max-height: 400px;
 }
 #image{
   left:5%;
@@ -43,7 +42,7 @@
   font-family: 'Muli', sans-serif;
 }
 #textContainer{
-  color: 	#47a329;
+  color: 	slategrey;
   width: 100%;
   text-align: center;
   clear: both;
@@ -59,7 +58,7 @@
   width: 100%;
 }
 #me{
-  background-color: 	#47a329;
+  background-color: slategrey;
   color: ghostwhite;
 }
 .links{
@@ -70,10 +69,10 @@
   text-align: center;
   background-color: ghostwhite;
   width: 100%;
-  color:	#47a329;
+  color:	slategrey;
   clear:left;
   margin: 0 auto;
-  border: 5px solid 	#47a329;
+  border: 5px solid 	slategrey;
 }
 ul{
   list-style-type: none;
@@ -82,7 +81,7 @@ ul{
   color: ghostwhite;
 }
 #projectsContainer{
-  background-color:	#47a329;
+  background-color:	slategrey;
   clear: both;
 }
 #projects{
@@ -111,7 +110,7 @@ ul{
   position: absolute;
   bottom: 2%;
   background-color: ghostwhite;
-  color: 	#47a329;
+  color: 	slategrey;
   text-align: center;
   width: 95%;
   height: 95%;
