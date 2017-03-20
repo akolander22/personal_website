@@ -26,6 +26,12 @@ $( document ).ready(function() {
         scrollTop: $("#head").offset().top
       }, 1000)
     });
+    $('.project').mouseenter(
+       function(){ $(this).removeClass('grey') });
+    $('.project').mouseleave(
+      function(){ $(this).addClass('grey')}
+    );
+
 });
 
 var myApp = angular.module('portfolio', ['ngRoute', 'ngMaterial']);

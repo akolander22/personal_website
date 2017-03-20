@@ -4,6 +4,10 @@
   width:100%;
   background-color: slategrey;
 }
+#infoContainer{
+  width: 90%;
+  background-color: slategrey;
+}
 #image{
   left:5%;
   top:5%;
@@ -13,80 +17,77 @@
   -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   border-radius: 50%;
-  border: 2px solid white;
-  margin: 50px 0px 0px 100px;
+  border: 2px solid ghostwhite;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
   float:left;
 }
 #info{
   float: left;
   margin-left: 150px;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 #name{
-  color:white;
+  color:ghostwhite;
   font-size:50px;
   left:50px;
   top:75px;
   font-family: 'Muli', sans-serif;
 }
 #title{
-  color: white;
+  color: ghostwhite;
   font-size: 24px;
   left: 50px;
   top: 125px;
   font-family: 'Muli', sans-serif;
 }
-.links{
-  color: white;
-  text-align: center;
-}
 #textContainer{
-  /*position: fixed;*/
-  /*top: 300px;*/
   color: slategrey;
   width: 100%;
-  margin: 50px;
   text-align: center;
   clear: both;
 }
-#infoContainer{
-  margin: 20px;
-  /*position: absolute;*/
-  width: 90%;
-}
 .column{
-  width: 30%;
+  width: 33%;
   float: left;
   padding: 5px;
 }
 .subheader{
-  background-color: white;
+  background-color: ghostwhite;
+  margin: 5px;
+  width: 100%;
 }
 #me{
   background-color: slategrey;
-  color: white;
+  color: ghostwhite;
+}
+.links{
+  color: ghostwhite;
+  text-align: center;
 }
 #projectHeader{
   text-align: center;
-  background-color: white;
-  width: 90%;
-  margin: 0 auto;
+  background-color: ghostwhite;
+  width: 80%;
   color: slategrey;
   clear:left;
+  margin: 0 auto;
 }
 ul{
   list-style-type: none;
 }
 #skillsList{
-  color: white;
+  color: ghostwhite;
 }
 #projectsContainer{
   background-color: slategrey;
   clear: both;
 }
 #projects{
-  width: 100%;
+  width: 90%;
   height: 500px;
+  margin: 0 auto;
 }
 .project{
   float: left;
@@ -95,12 +96,20 @@ ul{
   padding: 5px;
   margin: 0 auto;
   position: relative;
+
+}
+.grey{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .project .infoTitle{
   visibility: hidden;
   position: absolute;
   bottom: 40%;
-  background-color: white;
+  background-color: ghostwhite;
   color: slategrey;
   text-align: center;
 }
@@ -109,7 +118,7 @@ ul{
   visibility: hidden;
   position: absolute;
   bottom: 20%;
-  background-color: white;
+  background-color: ghostwhite;
   color: slategrey;
   text-align: center;
 }
