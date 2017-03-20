@@ -1,4 +1,4 @@
-#head{
+/*#head{
   height: 100%;
   background-color: #2E8B57;
   padding: 15%;
@@ -41,4 +41,80 @@ a:hover{
 }
 #topbutton{
   margin-top: 5px;
+}*/
+
+#container
+{
+    height:100%;
+    width:100%;
+    position:relative;
+    background-color: slategrey;
+}
+
+#image
+{
+    position:absolute;
+    left:5%;
+    top:5%;
+    height: 300px;;
+    width: 300px;
+    /*width: 60%;*/
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#info{
+  position: absolute;
+  right: 10%;
+  width: 40%;
+}
+#name
+{
+    z-index:100;
+    position:absolute;
+    color:white;
+    font-size:50px;
+    /*font-weight:bold;*/
+    left:50px;
+    top:75px;
+    font-family: 'Muli', sans-serif;
+}
+#title{
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  /*font-weight: bold;*/
+  left: 50px;
+  top: 125px;
+  font-family: 'Muli', sans-serif;
+}
+.links{
+  z-index: 100;
+  position: absolute;
+  left: 75px;
+  top: 175px;
+  color: white;
+}
+#subheader{
+  position: absolute;
+  top: 60%;
+  color: slategrey;
+  width: 95%;
+  margin-left: 50px;
+
+}
+#about{
+
+  margin-left: 20px;
+
+}
+#about,#skills,#contact{
+  float: left;
+  width: 30%;
+  padding: 5px;
+  background-color: white;
+  margin: 1px;
 }

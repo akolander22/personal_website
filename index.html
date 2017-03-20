@@ -10,7 +10,6 @@
     <script src="public/vendors/angular-animate/angular-animate.min.js" charset="utf-8"></script>
     <script src="public/vendors/angular-aria/angular-aria.min.js" charset="utf-8"></script>
     <script src="public/scripts/script.js" charset="utf-8"></script>
-    <!-- <script src="public/scripts/controller.js" charset="utf-8"></script> -->
 
     <script src="https://use.fontawesome.com/85c5318aae.js"></script>
 
@@ -18,13 +17,13 @@
     <link rel="stylesheet" href="public/vendors/angular-material/angular-material.min.css">
     <link rel="stylesheet" href="public/vendors/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
   </head>
 
   <body ng-controller="MainController as main">
     <!--header information  -->
-    <div>
+    <!-- <div>
       <div id="head">
         <h1 id="name">Andrew Kolander</h1>
         <h2 id="title">Software Developer</h2>
@@ -38,12 +37,35 @@
         </div>
 
       </div>
+    </div> -->
+    <div id="container">
+        <img id="image" src="public/assets/Andrew+Kelly-55.jpg"/>
+        <div id="info">
+          <h2 id="name">Andrew Kolander</h2>
+          <h2 id="title">Software Developer</h2>
+          <div class="links">
+            <a href="https://github.com/akolander22" class="fa fa-github fa-2x" aria-hidden="true"></a>
+            <a href="https://www.linkedin.com/in/andrew-kolander" class="fa fa-linkedin-square fa-2x" aria-hidden="true"></a>
+          </div>
+        </div>
+        <div id="subheader">
+          <div id="about">
+            <h2>About Me</h2>
+          </div>
+          <div id="skills">
+            <h2>Skills</h2>
+          </div>
+          <div id="contact">
+            <h2>Contact</h2>
+          </div>
+        </div>
+
     </div>
 
     <!-- About Me-->
-    <div id="about">
+    <!-- <div id="about"> -->
       <!-- <h2>About Me</h2> -->
-      <div>
+      <!-- <div>
         <img src="public/assets/Andrew+Kelly-114.jpg" id="pic"/>
       </div>
       <h2>About Me</h2>
@@ -52,10 +74,10 @@
       </p>
       <button class="w3-btn w3-border w3-ripple w3-dark-grey" id="top">Back to Top</button>
       <button class="w3-btn w3-border w3-ripple w3-dark-grey" id="toProjects">Projects</button>
-    </div>
+    </div> -->
 
     <!-- Projects Section-->
-    <div class="container-fluid" id="projectsLists">
+    <!-- <div class="container-fluid" id="projectsLists">
       <div class="row">
         <div class="col-lg-12">
                 <h1 class="page-header">Past Projects</h1>
@@ -102,7 +124,7 @@
         <button class="w3-btn w3-border w3-ripple w3-dark-grey" id="bottom">Back to Top</button>
       </div>
 
-    </div>
+    </div> -->
 
 
     <!-- MODALS -->
