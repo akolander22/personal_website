@@ -1,3 +1,4 @@
+
 #container{
   height:100%;
   width:100%;
@@ -13,13 +14,13 @@
   box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   border-radius: 50%;
   border: 2px solid white;
-  margin: 10px;
+  margin: 50px 0px 0px 100px;
   float:left;
 }
 #info{
   float: left;
-  right: 2%;
-  width: 60%;
+  margin-left: 150px;
+  margin-top: 50px;
 }
 #name{
   color:white;
@@ -49,7 +50,7 @@
   clear: both;
 }
 #infoContainer{
-  margin: 10px;
+  margin: 20px;
   /*position: absolute;*/
   width: 90%;
 }
@@ -85,7 +86,6 @@ ul{
 }
 #projects{
   width: 100%;
-  border: 1px solid black;
   height: 500px;
 }
 .project{
@@ -96,18 +96,33 @@ ul{
   margin: 0 auto;
   position: relative;
 }
-.projectImage #edInfo{
+.project .infoTitle{
   visibility: hidden;
+  position: absolute;
+  bottom: 40%;
+  background-color: white;
+  color: slategrey;
+  text-align: center;
 }
-.projectImaeg:hover{
-  opacity: 0.75;
+
+.project .infoTech{
+  visibility: hidden;
+  position: absolute;
+  bottom: 20%;
+  background-color: white;
+  color: slategrey;
+  text-align: center;
 }
-.projectImage:hover #edInfo{
+.projectImage:hover{
+}
+.project:hover .infoTech{
+  visibility: visible;
+}
+.project:hover .infoTitle{
   visibility: visible;
 }
 .projectImage{
-  height: 250px;
+  height: 100%;
   width: 100%;
-  padding: 5px;
 
 }
