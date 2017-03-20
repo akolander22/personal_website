@@ -1,6 +1,5 @@
 
 #container{
-  height:100%;
   width:100%;
   background-color: slategrey;
 }
@@ -52,7 +51,7 @@
 .column{
   width: 33%;
   float: left;
-  padding: 5px;
+  padding: 2px;
 }
 .subheader{
   background-color: ghostwhite;
@@ -70,10 +69,11 @@
 #projectHeader{
   text-align: center;
   background-color: ghostwhite;
-  width: 95%;
+  width: 100%;
   color: slategrey;
   clear:left;
   margin: 0 auto;
+  
 }
 ul{
   list-style-type: none;
@@ -94,7 +94,7 @@ ul{
   float: left;
   width: 33%;
   height: 250px;
-  padding: 5px;
+  padding: 10px;
   margin: 0 auto;
   position: relative;
 
