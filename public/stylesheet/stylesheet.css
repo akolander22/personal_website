@@ -1,11 +1,11 @@
 
 #container{
   width:100%;
-  background-color: slategrey;
+  background-color: 	#47a329;
 }
 #infoContainer{
   width: 90%;
-  background-color: slategrey;
+  background-color: 	#47a329;
   height: 400px;
 }
 #image{
@@ -43,7 +43,7 @@
   font-family: 'Muli', sans-serif;
 }
 #textContainer{
-  color: slategrey;
+  color: 	#47a329;
   width: 100%;
   text-align: center;
   clear: both;
@@ -59,7 +59,7 @@
   width: 100%;
 }
 #me{
-  background-color: slategrey;
+  background-color: 	#47a329;
   color: ghostwhite;
 }
 .links{
@@ -70,10 +70,10 @@
   text-align: center;
   background-color: ghostwhite;
   width: 100%;
-  color: slategrey;
+  color:	#47a329;
   clear:left;
   margin: 0 auto;
-  
+  border: 5px solid 	#47a329;
 }
 ul{
   list-style-type: none;
@@ -82,7 +82,7 @@ ul{
   color: ghostwhite;
 }
 #projectsContainer{
-  background-color: slategrey;
+  background-color:	#47a329;
   clear: both;
 }
 #projects{
@@ -109,25 +109,16 @@ ul{
 .project .infoTitle{
   visibility: hidden;
   position: absolute;
-  bottom: 40%;
+  bottom: 2%;
   background-color: ghostwhite;
-  color: slategrey;
+  color: 	#47a329;
   text-align: center;
+  width: 95%;
+  height: 95%;
+  padding: 10px;
+  opacity: 0.8;
 }
 
-.project .infoTech{
-  visibility: hidden;
-  position: absolute;
-  bottom: 20%;
-  background-color: ghostwhite;
-  color: slategrey;
-  text-align: center;
-}
-.projectImage:hover{
-}
-.project:hover .infoTech{
-  visibility: visible;
-}
 .project:hover .infoTitle{
   visibility: visible;
 }
