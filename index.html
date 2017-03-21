@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="public/stylesheet/stylesheet.css">
     <link rel="stylesheet" href="public/vendors/angular-material/angular-material.min.css">
     <link rel="stylesheet" href="public/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
@@ -33,17 +34,21 @@
         </div>
       </div>
 
+
+      <!-- About Me/Contact -->
       <div id="textContainer">
         <div class="column">
           <div class="subheader">
             <h2>About Me</h2>
           </div>
             <div id="me">
-              <p>
-                I am a highly motivated individual who enjoys continuously learning and taking on challenges.  I'm a quick learner and have a strong attention to detail. When I'm not coding you can find me spending time with friends and family.
-              </p>
+              <p>I am a highly motivated individual who enjoys continuously
+                learning and taking on challenges.  I'm a quick learner and have a
+                strong attention to detail. When I'm not coding you can find me spending
+                time with friends and family.</p>
           </div>
         </div>
+
         <div class="column">
           <div class="subheader">
             <h2>Skills</h2>
@@ -64,6 +69,7 @@
               <li>PostgreSQL</li>
               <li>Bootstrap</li>
               <li>Git</li>
+              <li>GitHub</li>
               <li>Passport.js</li>
               <li>D3.js</li>
               <li>Java</li>
@@ -71,8 +77,8 @@
 
             </ul>
           </div>
-
         </div>
+
         <div class="column">
           <div class="subheader">
             <h2>Contact</h2>
@@ -89,8 +95,8 @@
         </div>
       </div>
 
+      <!-- Past Projects Section -->
       <div id="projectsContainer">
-
         <div id="projectHeader">
           <h2>Projects</h2>
         </div>
@@ -100,10 +106,8 @@
 
             <div class="infoTitle">
               <h1>Continuning Education</h1>
-              <p>
-                HTML5, CSS3, JavaScript, AngularJS, Node.js, Express.js, MongoDB, Heroku, Git
-
-              </p>
+              <p>HTML5, CSS3, JavaScript, AngularJS, Node.js,
+                Express.js, MongoDB, Heroku, Git</p>
             </div>
 
           </div>
@@ -112,10 +116,8 @@
 
             <div class="infoTitle">
               <h1>Sustainable Stillwater MN</h1>
-              <p>
-                HTML5, CSS3, JavaScript, D3.js, AngularJS, Node.js, Express.js, MongoDB, Heroku, Git
-
-              </p>
+              <p>HTML5, CSS3, JavaScript, D3.js, AngularJS, Node.js,
+                Express.js, MongoDB, Heroku, Git</p>
             </div>
           </div>
           <div class="project grey" ng-click="main.tv()">
@@ -123,10 +125,8 @@
 
             <div class="infoTitle">
               <h1>MyTvTracker</h1>
-              <p>
-                TVMaze API, HTML5, CSS3, JavaScript, AngularJS, Node.js, Express.js, MongoDB, Heroku, Git
-
-              </p>
+              <p>TVMaze API, HTML5, CSS3, JavaScript, AngularJS,
+                Node.js, Express.js, MongoDB, Heroku, Git</p>
             </div>
           </div>
           <div class="project grey" ng-click="">
@@ -134,9 +134,7 @@
 
             <div class="infoTitle">
               <h1>Angular Calculator</h1>
-              <p>
-                HTML5, CSS3, JavaScript, AngularJS, Node.js, Git
-              </p>
+              <p>HTML5, CSS3, JavaScript, AngularJS, Node.js, Git</p>
             </div>
 
           </div>
@@ -145,16 +143,16 @@
 
             <div class="infoTitle">
               <h1>Random Olympian Generator</h1>
-              <p>
-                HTML5, CSS3, JavaScript, AngularJS, Node.js, Express.js, Heroku, Git
-
-              </p>
+              <p>HTML5, CSS3, JavaScript, AngularJS, Node.js, Express.js, Heroku, Git</p>
             </div>
           </div>
           <div class="project grey" ng-click="">
             <img class="projectImage" src="public/assets/resume.png" alt="HTMLResume" >
 
-            <h1 class="infoTitle">HTML Resume</h1>
+            <div class="infoTitle">
+              <h1>HTML Resume</h1>
+              <p>HTML, CSS</p>
+            </div>
           </div>
 
         </div>
@@ -162,10 +160,6 @@
 
     </div>
 
-  <!--
-      <button class="w3-btn w3-border w3-ripple w3-dark-grey" id="top">Back to Top</button>
-      <button class="w3-btn w3-border w3-ripple w3-dark-grey" id="toProjects">Projects</button>
-      <button class="w3-btn w3-border w3-ripple w3-dark-grey" id="bottom">Back to Top</button> -->
 
 
 
@@ -179,8 +173,9 @@
           <md-toolbar>
             <div class="md-toolbar-tools" style="background-color:slategrey;">
               <h2>Continuing Education Application</h2>
-              <md-button class="md-icon-button" ng-click="cancel()">
-                <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+              <span flex></span>
+              <md-button class="md-icon-button" ng-click="modal.cancel()">
+                <i class="material-icons">close</i>
               </md-button>
             </div>
           </md-toolbar>
@@ -228,8 +223,9 @@
         <md-toolbar>
           <div class="md-toolbar-tools" style="background-color:slategrey;">
             <h2>Sustainable Stillwater Minnesota</h2>
-            <md-button class="md-icon-button" ng-click="cancel()">
-              <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="modal.cancel()">
+              <i class="material-icons">close</i>
             </md-button>
           </div>
         </md-toolbar>
@@ -277,8 +273,9 @@
         <md-toolbar>
           <div class="md-toolbar-tools" style="background-color:slategrey;">
             <h2>MyTvTracker</h2>
-            <md-button class="md-icon-button" ng-click="cancel()">
-              <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="modal.cancel()">
+              <i class="material-icons">close</i>
             </md-button>
           </div>
         </md-toolbar>
@@ -325,8 +322,9 @@
         <md-toolbar>
           <div class="md-toolbar-tools" style="background-color:slategrey;">
             <h2>Random Olympican Generator</h2>
-            <md-button class="md-icon-button" ng-click="cancel()">
-              <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="modal.cancel()">
+              <i class="material-icons">close</i>
             </md-button>
           </div>
         </md-toolbar>

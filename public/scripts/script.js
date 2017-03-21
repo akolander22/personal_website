@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
 
     $("#aboutMe").click(function(){
       $('html, body').animate({
@@ -85,8 +84,14 @@ myApp.controller('MainController', function($mdDialog, $mdMedia){
   }
 
 
+
+
 });
-myApp.controller('ModalController', function(){
+myApp.controller('ModalController', function($mdDialog){
 
+  var vm = this;
 
+  vm.cancel = function() {
+      $mdDialog.hide();
+    };
 });

@@ -70,9 +70,8 @@
   background-color: ghostwhite;
   width: 100%;
   color:	slategrey;
-  clear:left;
-  margin: 0 auto;
-  border: 5px solid 	slategrey;
+  clear:both;
+  margin-right: 10px;
 }
 ul{
   list-style-type: none;
