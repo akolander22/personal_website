@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="icon" href="public/assets/Logmakr_6spMAq.png">
+
 
   </head>
 
@@ -129,7 +131,7 @@
                 Node.js, Express.js, MongoDB, Heroku, Git</p>
             </div>
           </div>
-          <div class="project grey" ng-click="">
+          <div class="project grey" ng-click="main.calc()">
             <img class="projectImage" src="public/assets/angularcalculator.png" alt="AngularCalculator" >
 
             <div class="infoTitle">
@@ -220,36 +222,36 @@
 
       <!-- Sustainable Stillwater Modal -->
       <script type="text/ng-template" id="ssmn.html">
-        <md-toolbar>
-          <div class="md-toolbar-tools" style="background-color:slategrey;">
-            <h2>Sustainable Stillwater Minnesota</h2>
-            <span flex></span>
-            <md-button class="md-icon-button" ng-click="modal.cancel()">
-              <i class="material-icons">close</i>
-            </md-button>
-          </div>
-        </md-toolbar>
-        <md-dialog-content style="max-width:900px;max-height:810px; ">
-        <md-tabs md-dynamic-height md-border-bottom>
-          <md-tab label="Home">
-            <md-content class="md-padding">
-              <h1 class="md-display-2">Home Page</h1>
-              <img src="public/assets/ssmnhome.png" style="height:600px; width:900px;"/>
-            </md-content>
+        <md-dialog-content>
+          <md-toolbar>
+            <div class="md-toolbar-tools" style="background-color:slategrey;">
+              <h2>Sustainable Stillwater Minnesota</h2>
+              <span flex></span>
+              <md-button class="md-icon-button" ng-click="modal.cancel()">
+                <i class="material-icons">close</i>
+              </md-button>
+            </div>
+          </md-toolbar>
+          <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Login">
+              <md-content class="md-padding">
+                <h1 class="md-display-2">Home Page</h1>
+                <img src="public/assets/ssmnhome.png" style="height:600px; width:900px;"/>
+              </md-content>
           </md-tab>
-          <md-tab label="Profile">
+          <md-tab label="Licenses">
             <md-content class="md-padding">
               <h1 class="md-display-2">Profile Sidebar</h1>
               <img src="public/assets/ssmnprofile.png" style="height:600px; width:900px;"/>
             </md-content>
           </md-tab>
-          <md-tab label="Overall">
+          <md-tab label="Create">
             <md-content class="md-padding">
               <h1 class="md-display-2">SSMN Overall Progress</h1>
-              <img src="public/assets/ssmnoverall.png" style="height:600px; width:900px;"/>
+              <img src="public/assets/ssmnprofile.png" style="height:600px; width:900px;"/>
             </md-content>
           </md-tab>
-          <md-tab label="Initiative">
+          <md-tab label="Update">
             <md-content class="md-padding">
               <h1 class="md-display-2">Initiative Progress</h1>
               <img src="public/assets/ssmnviewprogress.png" style="height:600px; width:900px;"/>
@@ -270,6 +272,7 @@
 
       <!-- MyTv Tracker Modal -->
       <script type="text/ng-template" id="tv.html">
+        <md-dialog-content>
         <md-toolbar>
           <div class="md-toolbar-tools" style="background-color:slategrey;">
             <h2>MyTvTracker</h2>
@@ -279,7 +282,6 @@
             </md-button>
           </div>
         </md-toolbar>
-        <md-dialog-content style="max-width:900px;max-height:810px; ">
         <md-tabs md-dynamic-height md-border-bottom>
           <md-tab label="Login">
             <md-content class="md-padding">
@@ -319,6 +321,7 @@
       </script>
 
       <script type="text/ng-template" id="olympic.html">
+        <md-dialog-content>
         <md-toolbar>
           <div class="md-toolbar-tools" style="background-color:slategrey;">
             <h2>Random Olympican Generator</h2>
@@ -328,7 +331,6 @@
             </md-button>
           </div>
         </md-toolbar>
-        <md-dialog-content style="max-width:900px;max-height:810px; ">
         <md-tabs md-dynamic-height md-border-bottom>
           <md-tab label="Home">
             <md-content class="md-padding">

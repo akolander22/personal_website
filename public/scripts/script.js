@@ -71,6 +71,7 @@ myApp.controller('MainController', function($mdDialog, $mdMedia){
       ariaLabel: 'Good'
     });
   }
+
   vm.olympic = function(){
     var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'));
     $mdDialog.show({
