@@ -64,6 +64,10 @@
 .links{
   color: ghostwhite;
   text-align: center;
+
+}
+.links:hover{
+  text-decoration: none;
 }
 #projectHeader{
   text-align: center;
@@ -75,7 +79,9 @@
 }
 ul{
   list-style-type: none;
+  margin-left: -25px;
 }
+
 #skillsList{
   color: ghostwhite;
 }
