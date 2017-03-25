@@ -1,7 +1,7 @@
 
 #container{
   width:100%;
-  background-color: 	slategrey;
+  background-color: 	#008080;
 }
 #infoContainer{
   /*width: 100%;*/
@@ -42,7 +42,7 @@
   font-family: 'Muli', sans-serif;
 }
 #textContainer{
-  color: 	slategrey;
+  color: 	#008080;
   width: 100%;
   text-align: center;
   clear: both;
@@ -58,7 +58,7 @@
   width: 100%;
 }
 #me{
-  background-color: slategrey;
+  background-color: #008080;
   color: ghostwhite;
 }
 .links{
@@ -73,7 +73,7 @@
   text-align: center;
   background-color: ghostwhite;
   width: 100%;
-  color:	slategrey;
+  color:	#008080;
   clear:both;
   margin-right: 10px;
 }
@@ -86,7 +86,7 @@ ul{
   color: ghostwhite;
 }
 #projectsContainer{
-  background-color:	slategrey;
+  background-color:	#008080;
   clear: both;
 }
 #projects{
@@ -115,7 +115,7 @@ ul{
   position: absolute;
   bottom: 2%;
   background-color: ghostwhite;
-  color: 	slategrey;
+  color: 	#008080;
   text-align: center;
   width: 95%;
   height: 95%;
